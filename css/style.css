@@ -93,13 +93,37 @@ body{
     border-radius: 100px;
     /* border: 3px solid red; */
     background: linear-gradient(-45deg, rgb(218, 219, 214), rgb(4, 235, 96));
-
-
-
 }
 .section-3 .dashboardspan {
     font-size: 40px;
 }
+
+
+
+
+.section-4 .card-title{
+    font-size: 60px;
+    color: yellow;
+}
+.section-4 .small{
+    font-size: 40px;
+    color: yellow;
+}
+.section-4 span{
+    font-size: 60px;
+    color: red;
+}
+.section-4 .card-body {
+    background: linear-gradient(-45deg, yellow, rgb(4, 78, 41));
+    border-radius: 30px;
+
+
+}
+.section-4 .card {
+    border-radius: 30px;
+
+}
+
 
 /* .section-3 .btn {
     color: rgb(242, 242, 242); 
