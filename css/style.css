@@ -106,7 +106,7 @@ body{
     color: yellow;
 }
 .section-4 .small{
-    font-size: 40px;
+    font-size: 30px;
     color: yellow;
 }
 .section-4 span{
@@ -122,6 +122,9 @@ body{
 .section-4 .card {
     border-radius: 30px;
 
+}
+.footer h2 span {
+    color: rgb(0, 102, 255);
 }
 
 
