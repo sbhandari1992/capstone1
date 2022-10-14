@@ -14,6 +14,8 @@
 
 body {
     padding-top: 120px;
+    background: linear-gradient(90deg, yellow, red);
+
 }
 
 .navbar button{
@@ -22,9 +24,7 @@ body {
 .bi {
     padding: 10px;
 }
-body{
-    background: linear-gradient(90deg, yellow, red);
-}
+
 .input-icons i {
     position:absolute;
     margin: -3px 0px 0px 0px;
@@ -33,10 +33,17 @@ body{
     text-align: start;
     text-indent: 20px;
 }
+.section-1 h1 {
+    text-align: center;
+    color: white
+}
 .section-1 .card{
     background: linear-gradient(-45deg, green, rgb(225, 255, 0));
     border-radius: 20px;
     /* border: 3px solid red; */
+}
+.section-1 strong {
+    color: red;
 }
 .category {
     text-align: center;
@@ -141,6 +148,10 @@ body{
     color:  rgb(0, 102, 255);
 }
 
+
+
+
+
 /* .section-3 .btn {
     color: rgb(242, 242, 242); 
     background-color: rgb(255, 0, 0);
@@ -230,5 +241,105 @@ body{
 .flex-div:nth-last-child(2) {background-color: rgb(255, 0, 255);}
 .flex-div:nth-last-child(3) {background-color: rgb(0, 255, 26);} */
 
+
+
+
+body {
+    padding-top: 120px;
+    background: linear-gradient(90deg, yellow, red);
+
+}
+.main-box {
+    background-color: blue;
+    display: flex;
+}
+.first-box {
+    background-color: rgb(217, 255, 0);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.first-box-a{
+    background-color: hwb(260 1% 98%);
+    flex: 1;
+
+
+}
+.first-box-b{
+    background-color: hwb(260 1% 98%);
+    flex: 1;
+
+
+}
+.second-box {
+    background-color: rgb(217, 255, 0);
+    flex: 1;
+
+
+}
+.tax-disable {
+    color: #BFBFBF;
+		font-weight: 500;
+		font-size: 12px;
+}
+.green-number {
+    color: green;
+}
+
+
+
+.main-box {
+    background-color: blue;
+    display: flex;
+}
+.first-box {
+    background-color: rgb(217, 255, 0);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
+.first-box .card-header {
+    font-size: xx-large;
+    color:red;
+}
+.first-box-a{
+    background-color: hwb(260 1% 98%);
+    flex: 1;
+
+
+}
+.first-box-b{
+    background-color: hwb(260 1% 98%);
+    flex: 1;
+
+
+}
+.second-box {
+    background: linear-gradient(90deg, rgb(11, 11, 10), red);
+    flex: 1;
+    
+
+
+}
+.tax-disable {
+    color: #BFBFBF;
+		font-weight: 500;
+		font-size: 12px;
+}
+.green-number {
+    color: green;
+}
+.footer h2 span {
+    color: rgb(0, 102, 255);
+}
+.footer-about span {
+    font-size: xx-large;
+    color:  rgb(0, 102, 255);
+}
 
 

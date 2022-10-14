@@ -13,10 +13,58 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/check-out.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="main-box">
+    <header class="header" >
+        <section>
+          <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="./images/1-logo/organiclogo.jpg  " width=100px alt="Organic shop logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Weekly Ad</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Shop
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Produce</a></li>
+                      <li><a class="dropdown-item" href="#">Dairy</a></li>
+                      <li><a class="dropdown-item" href="#">Meat</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Others</a></li>
+                      <a href="./produce.html" class="btn" style="color:red">Shop All<i class="bi bi-arrow-right" style="color:red"></i></a>
+                    </ul>
+                  </li>
+                </ul>
+                <div class="input-icons" >
+                  <form class="d-flex" role="search">
+                    <i class="bi bi-search"></i>
+                    <input  class="form-control me-2" type="search" placeholder="Get Yummy" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit" style="color: red">Login</button>
+                    <button class="btn btn-outline-warning" type="submit" style="color: green">Signup</button>
+                  </form>
+              </div>
+              </div>
+            </div>
+          </nav>
+        </section>
+    </header>
+    <main class="main-box">
         <div class="first-box">
 
             <div class="first-box-a">
@@ -89,7 +137,7 @@
                 </div>
             </div>
             <div class="first-box-a">
-                <div class="my-1 mx-2 row">
+                <div class=" mx-2 row">
 
                     <div class="col">
                         <div class="card text-center">
@@ -161,7 +209,7 @@
         <div class="second-box">
             <div class="container">
                 <div class="my-1 row">
-                    <div class="col">
+                    <div class="my-1 col">
                         <div class="card text-center">
                             <div class="card-header">
                               <h1>summary</h1>
@@ -192,8 +240,72 @@
                 </div>
             </div>
         </div>
-    </div>
-    
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+          <div class="row  row-cols-lg-3 row-cols-md-1 row-cols-sm-1 ">
+  
+            <div class="col-lg-4">
+  
+              <div class="footer-left">
+                <h2>Organic<span>Shop</span></h2>
+                <p class="footer-links">
+                  <a href="">Home</a>
+                  |
+                  <a href="#">About</a>
+                  |
+                  <a href="#">Contact</a>
+                  |
+                  <a href="#">Blog</a>
+                </p>
+                <hr>
+                <p class="copyright">Copyright © 2022 <strong>Organic Shop</strong> All Rights Reserved.</p>
+              </div>
+              
+            </div>
+            
+            <div class="col-lg-4">
+  
+              <div class="footer-middle">
+                <div>
+                  <i class="fa fa-map-marker"></i>
+                  <p><span>777 Organic shop Drive Pittsburgh</span> Pittsburgh PA 15227 </p>
+                </div>
+                <hr>
+                <div>
+                  <i class="fa fa-phone"></i>
+                  <p>+1 000 000 0000</p>
+                </div>
+                <hr>
+                <div>
+                  <i class="fa fa-envelope"></i>
+                  <p><a href="Organicshop@gmail.com">Organicshop@gmail.com</a></p>
+                </div>
+              </div>
+  
+            </div>
+            <div class="col-lg-4">
+  
+              <div class="footer-right">
+                <p class="footer-about">
+                  <span>About the company</span>
+                  <strong>Organic Shop</strong> is a farmer family owned bussiness since 1922 where you can find a satisfication of quality.we value your Health. <hr> To learn more follow us.
+                </p>
+                <div class="footer-icons">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+
+    </footer>
     
 </body>
 </html>
