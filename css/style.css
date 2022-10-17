@@ -93,6 +93,9 @@ body {
     border-radius: 200px;
 
 }
+.section-2 .card:hover {
+    box-shadow: 300px;
+}
 
 .dashboardspan {
     font-size: 50px;
@@ -249,7 +252,7 @@ body {
     margin-left: 200px;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 70px;
+    padding-top: 90px;
 }
 
 .produceCard {
@@ -260,7 +263,7 @@ body {
 
 .produceCard-body {
     background-color: aliceblue;
-    border-radius: 10px;
+    border-radius: 20px;
 
 }
 
@@ -288,7 +291,7 @@ body {
 .proSection-1 h2 {
     margin-left: 36px;
     margin-top: 20px;
-    width: 1200px;
+    width: 2000px;
     color: rgb(7, 170, 12);
 
 
