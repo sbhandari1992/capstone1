@@ -357,6 +357,11 @@ hr {
 
 
 }
+#check-out-cart-dropdown {
+    border: 4px solid red;
+    margin-top: 87px;
+    margin-left: -271px
+}
 @media screen and (max-width: 900px) {
     .signupcard {
         display: flex;
