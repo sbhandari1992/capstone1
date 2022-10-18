@@ -322,3 +322,57 @@ hr {
     margin-left: 40px;
     margin-right: 40px;
 }
+
+.signupcard {
+    display: flex;
+    /* flex-direction: column; */
+    /* height: 800px; */
+    /* width: 1200px; */
+    /* background-color: rgb(147, 157, 188); */
+    /* justify-content: center; */
+    /* justify-items: center; */
+    /* align-items: center; */
+    /* row-gap: 90px; */
+    column-gap: 10px;
+
+}
+
+.card-1 {
+    /* color: rgb(0, 255, 183); */
+    /* background-color: red; */
+    flex-grow: 1;
+    /* width:400px */
+    /* justify-content: center; */
+
+}
+.card-2 {
+    /* color: rgb(255, 0, 183); */
+    /* background-color: rgb(0, 255, 225); */
+    flex-grow: 1;
+    /* height: 689px; */
+    /* width:400px; */
+    /* padding-left: -200px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+
+}
+@media screen and (max-width: 900px) {
+    .signupcard {
+        display: flex;
+        flex-direction: column;
+        /* height: 800px; */
+        /* width: 1200px; */
+        /* background-color: rgb(147, 157, 188); */
+        /* justify-content: center; */
+        /* justify-items: center; */
+        /* align-items: center; */
+        /* row-gap: 90px; */
+        row-gap: 10px;
+        /* justify-content: center; */
+        justify-items: center;
+        align-items: center;
+    
+    }
+
+}
